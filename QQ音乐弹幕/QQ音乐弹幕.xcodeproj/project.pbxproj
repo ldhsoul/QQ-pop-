@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FF620C922FA5D0000003A72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF620C822FA5D0000003A72 /* AppDelegate.m */; };
+		5FF620CC22FA5D0000003A72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF620CB22FA5D0000003A72 /* ViewController.m */; };
+		5FF620CF22FA5D0000003A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF620CD22FA5D0000003A72 /* Main.storyboard */; };
+		5FF620D122FA5D0200003A72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF620D022FA5D0200003A72 /* Assets.xcassets */; };
+		5FF620D422FA5D0200003A72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF620D222FA5D0200003A72 /* LaunchScreen.storyboard */; };
+		5FF620D722FA5D0200003A72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF620D622FA5D0200003A72 /* main.m */; };
+		5FF620E122FA5D0200003A72 /* QQ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF620E022FA5D0200003A72 /* QQ____Tests.m */; };
+		5FF620EC22FA5D0200003A72 /* QQ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF620EB22FA5D0200003A72 /* QQ____UITests.m */; };
+		5FF620FD22FA6AFE00003A72 /* DHBarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF620FC22FA6AFE00003A72 /* DHBarrageView.m */; };
+		5FF6210022FA6CDF00003A72 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF620FF22FA6CDF00003A72 /* ExampleViewController.m */; };
+		5FF6210322FA73D800003A72 /* DHBarrageMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF6210222FA73D800003A72 /* DHBarrageMessage.m */; };
+		5FF6210622FA74AA00003A72 /* DHBarrageChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF6210522FA74AA00003A72 /* DHBarrageChannel.m */; };
+		5FF6210922FA790800003A72 /* DHBarrageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF6210822FA790800003A72 /* DHBarrageViewCell.m */; };
+		5FF6210C22FA920B00003A72 /* DemoBarrageViewCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF6210B22FA920B00003A72 /* DemoBarrageViewCell1.m */; };
+		5FF6211022FAA4D600003A72 /* CAAnimationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF6210F22FAA4D600003A72 /* CAAnimationTool.m */; };
+		5FF6211322FD58D800003A72 /* Example2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF6211222FD58D800003A72 /* Example2ViewController.m */; };
+		5FF6211622FD59DD00003A72 /* DemoBarrageViewCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF6211522FD59DD00003A72 /* DemoBarrageViewCell2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FF620DD22FA5D0200003A72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FF620BC22FA5D0000003A72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FF620C322FA5D0000003A72;
+			remoteInfo = "QQ音乐弹幕";
+		};
+		5FF620E822FA5D0200003A72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FF620BC22FA5D0000003A72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FF620C322FA5D0000003A72;
+			remoteInfo = "QQ音乐弹幕";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FF620C422FA5D0000003A72 /* QQ音乐弹幕.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QQ音乐弹幕.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF620C722FA5D0000003A72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5FF620C822FA5D0000003A72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FF620CA22FA5D0000003A72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5FF620CB22FA5D0000003A72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5FF620CE22FA5D0000003A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FF620D022FA5D0200003A72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FF620D322FA5D0200003A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FF620D522FA5D0200003A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF620D622FA5D0200003A72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FF620DC22FA5D0200003A72 /* QQ音乐弹幕Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QQ音乐弹幕Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF620E022FA5D0200003A72 /* QQ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QQ____Tests.m"; sourceTree = "<group>"; };
+		5FF620E222FA5D0200003A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF620E722FA5D0200003A72 /* QQ音乐弹幕UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QQ音乐弹幕UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF620EB22FA5D0200003A72 /* QQ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QQ____UITests.m"; sourceTree = "<group>"; };
+		5FF620ED22FA5D0200003A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF620FB22FA6AFE00003A72 /* DHBarrageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHBarrageView.h; sourceTree = "<group>"; };
+		5FF620FC22FA6AFE00003A72 /* DHBarrageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHBarrageView.m; sourceTree = "<group>"; };
+		5FF620FE22FA6CDF00003A72 /* ExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		5FF620FF22FA6CDF00003A72 /* ExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+		5FF6210122FA73D800003A72 /* DHBarrageMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHBarrageMessage.h; sourceTree = "<group>"; };
+		5FF6210222FA73D800003A72 /* DHBarrageMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHBarrageMessage.m; sourceTree = "<group>"; };
+		5FF6210422FA74AA00003A72 /* DHBarrageChannel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHBarrageChannel.h; sourceTree = "<group>"; };
+		5FF6210522FA74AA00003A72 /* DHBarrageChannel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHBarrageChannel.m; sourceTree = "<group>"; };
+		5FF6210722FA790800003A72 /* DHBarrageViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHBarrageViewCell.h; sourceTree = "<group>"; };
+		5FF6210822FA790800003A72 /* DHBarrageViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHBarrageViewCell.m; sourceTree = "<group>"; };
+		5FF6210A22FA920B00003A72 /* DemoBarrageViewCell1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBarrageViewCell1.h; sourceTree = "<group>"; };
+		5FF6210B22FA920B00003A72 /* DemoBarrageViewCell1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBarrageViewCell1.m; sourceTree = "<group>"; };
+		5FF6210E22FAA4D600003A72 /* CAAnimationTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAAnimationTool.h; sourceTree = "<group>"; };
+		5FF6210F22FAA4D600003A72 /* CAAnimationTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAAnimationTool.m; sourceTree = "<group>"; };
+		5FF6211122FD58D800003A72 /* Example2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Example2ViewController.h; sourceTree = "<group>"; };
+		5FF6211222FD58D800003A72 /* Example2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Example2ViewController.m; sourceTree = "<group>"; };
+		5FF6211422FD59DD00003A72 /* DemoBarrageViewCell2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBarrageViewCell2.h; sourceTree = "<group>"; };
+		5FF6211522FD59DD00003A72 /* DemoBarrageViewCell2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBarrageViewCell2.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FF620C122FA5D0000003A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF620D922FA5D0200003A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF620E422FA5D0200003A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FF620BB22FA5D0000003A72 = {
+			isa = PBXGroup;
+			children = (
+				5FF620C622FA5D0000003A72 /* QQ音乐弹幕 */,
+				5FF620DF22FA5D0200003A72 /* QQ音乐弹幕Tests */,
+				5FF620EA22FA5D0200003A72 /* QQ音乐弹幕UITests */,
+				5FF620C522FA5D0000003A72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FF620C522FA5D0000003A72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FF620C422FA5D0000003A72 /* QQ音乐弹幕.app */,
+				5FF620DC22FA5D0200003A72 /* QQ音乐弹幕Tests.xctest */,
+				5FF620E722FA5D0200003A72 /* QQ音乐弹幕UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FF620C622FA5D0000003A72 /* QQ音乐弹幕 */ = {
+			isa = PBXGroup;
+			children = (
+				5FF620C722FA5D0000003A72 /* AppDelegate.h */,
+				5FF620C822FA5D0000003A72 /* AppDelegate.m */,
+				5FF620CA22FA5D0000003A72 /* ViewController.h */,
+				5FF620CB22FA5D0000003A72 /* ViewController.m */,
+				5FF620F922FA682D00003A72 /* Class */,
+				5FF620CD22FA5D0000003A72 /* Main.storyboard */,
+				5FF620D022FA5D0200003A72 /* Assets.xcassets */,
+				5FF620D222FA5D0200003A72 /* LaunchScreen.storyboard */,
+				5FF620D522FA5D0200003A72 /* Info.plist */,
+				5FF620D622FA5D0200003A72 /* main.m */,
+			);
+			path = "QQ音乐弹幕";
+			sourceTree = "<group>";
+		};
+		5FF620DF22FA5D0200003A72 /* QQ音乐弹幕Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5FF620E022FA5D0200003A72 /* QQ____Tests.m */,
+				5FF620E222FA5D0200003A72 /* Info.plist */,
+			);
+			path = "QQ音乐弹幕Tests";
+			sourceTree = "<group>";
+		};
+		5FF620EA22FA5D0200003A72 /* QQ音乐弹幕UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FF620EB22FA5D0200003A72 /* QQ____UITests.m */,
+				5FF620ED22FA5D0200003A72 /* Info.plist */,
+			);
+			path = "QQ音乐弹幕UITests";
+			sourceTree = "<group>";
+		};
+		5FF620F922FA682D00003A72 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				5FF620FB22FA6AFE00003A72 /* DHBarrageView.h */,
+				5FF620FC22FA6AFE00003A72 /* DHBarrageView.m */,
+				5FF6210722FA790800003A72 /* DHBarrageViewCell.h */,
+				5FF6210822FA790800003A72 /* DHBarrageViewCell.m */,
+				5FF6210122FA73D800003A72 /* DHBarrageMessage.h */,
+				5FF6210222FA73D800003A72 /* DHBarrageMessage.m */,
+				5FF6210422FA74AA00003A72 /* DHBarrageChannel.h */,
+				5FF6210522FA74AA00003A72 /* DHBarrageChannel.m */,
+				5FF620FA22FA6AC900003A72 /* Example */,
+				5FF6210D22FAA4B800003A72 /* CAAnimationTool */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		5FF620FA22FA6AC900003A72 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				5FF620FE22FA6CDF00003A72 /* ExampleViewController.h */,
+				5FF620FF22FA6CDF00003A72 /* ExampleViewController.m */,
+				5FF6210A22FA920B00003A72 /* DemoBarrageViewCell1.h */,
+				5FF6210B22FA920B00003A72 /* DemoBarrageViewCell1.m */,
+				5FF6211122FD58D800003A72 /* Example2ViewController.h */,
+				5FF6211222FD58D800003A72 /* Example2ViewController.m */,
+				5FF6211422FD59DD00003A72 /* DemoBarrageViewCell2.h */,
+				5FF6211522FD59DD00003A72 /* DemoBarrageViewCell2.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		5FF6210D22FAA4B800003A72 /* CAAnimationTool */ = {
+			isa = PBXGroup;
+			children = (
+				5FF6210E22FAA4D600003A72 /* CAAnimationTool.h */,
+				5FF6210F22FAA4D600003A72 /* CAAnimationTool.m */,
+			);
+			path = CAAnimationTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FF620C322FA5D0000003A72 /* QQ音乐弹幕 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF620F022FA5D0200003A72 /* Build configuration list for PBXNativeTarget "QQ音乐弹幕" */;
+			buildPhases = (
+				5FF620C022FA5D0000003A72 /* Sources */,
+				5FF620C122FA5D0000003A72 /* Frameworks */,
+				5FF620C222FA5D0000003A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QQ音乐弹幕";
+			productName = "QQ音乐弹幕";
+			productReference = 5FF620C422FA5D0000003A72 /* QQ音乐弹幕.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FF620DB22FA5D0200003A72 /* QQ音乐弹幕Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF620F322FA5D0200003A72 /* Build configuration list for PBXNativeTarget "QQ音乐弹幕Tests" */;
+			buildPhases = (
+				5FF620D822FA5D0200003A72 /* Sources */,
+				5FF620D922FA5D0200003A72 /* Frameworks */,
+				5FF620DA22FA5D0200003A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FF620DE22FA5D0200003A72 /* PBXTargetDependency */,
+			);
+			name = "QQ音乐弹幕Tests";
+			productName = "QQ音乐弹幕Tests";
+			productReference = 5FF620DC22FA5D0200003A72 /* QQ音乐弹幕Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FF620E622FA5D0200003A72 /* QQ音乐弹幕UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF620F622FA5D0200003A72 /* Build configuration list for PBXNativeTarget "QQ音乐弹幕UITests" */;
+			buildPhases = (
+				5FF620E322FA5D0200003A72 /* Sources */,
+				5FF620E422FA5D0200003A72 /* Frameworks */,
+				5FF620E522FA5D0200003A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FF620E922FA5D0200003A72 /* PBXTargetDependency */,
+			);
+			name = "QQ音乐弹幕UITests";
+			productName = "QQ音乐弹幕UITests";
+			productReference = 5FF620E722FA5D0200003A72 /* QQ音乐弹幕UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FF620BC22FA5D0000003A72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = ldh;
+				TargetAttributes = {
+					5FF620C322FA5D0000003A72 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					5FF620DB22FA5D0200003A72 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 5FF620C322FA5D0000003A72;
+					};
+					5FF620E622FA5D0200003A72 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 5FF620C322FA5D0000003A72;
+					};
+				};
+			};
+			buildConfigurationList = 5FF620BF22FA5D0000003A72 /* Build configuration list for PBXProject "QQ音乐弹幕" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FF620BB22FA5D0000003A72;
+			productRefGroup = 5FF620C522FA5D0000003A72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FF620C322FA5D0000003A72 /* QQ音乐弹幕 */,
+				5FF620DB22FA5D0200003A72 /* QQ音乐弹幕Tests */,
+				5FF620E622FA5D0200003A72 /* QQ音乐弹幕UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FF620C222FA5D0000003A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF620D422FA5D0200003A72 /* LaunchScreen.storyboard in Resources */,
+				5FF620D122FA5D0200003A72 /* Assets.xcassets in Resources */,
+				5FF620CF22FA5D0000003A72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF620DA22FA5D0200003A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF620E522FA5D0200003A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FF620C022FA5D0000003A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF6210322FA73D800003A72 /* DHBarrageMessage.m in Sources */,
+				5FF6210922FA790800003A72 /* DHBarrageViewCell.m in Sources */,
+				5FF6211022FAA4D600003A72 /* CAAnimationTool.m in Sources */,
+				5FF6211322FD58D800003A72 /* Example2ViewController.m in Sources */,
+				5FF620CC22FA5D0000003A72 /* ViewController.m in Sources */,
+				5FF620FD22FA6AFE00003A72 /* DHBarrageView.m in Sources */,
+				5FF6210022FA6CDF00003A72 /* ExampleViewController.m in Sources */,
+				5FF6211622FD59DD00003A72 /* DemoBarrageViewCell2.m in Sources */,
+				5FF6210622FA74AA00003A72 /* DHBarrageChannel.m in Sources */,
+				5FF620D722FA5D0200003A72 /* main.m in Sources */,
+				5FF620C922FA5D0000003A72 /* AppDelegate.m in Sources */,
+				5FF6210C22FA920B00003A72 /* DemoBarrageViewCell1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF620D822FA5D0200003A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF620E122FA5D0200003A72 /* QQ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF620E322FA5D0200003A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF620EC22FA5D0200003A72 /* QQ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FF620DE22FA5D0200003A72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FF620C322FA5D0000003A72 /* QQ音乐弹幕 */;
+			targetProxy = 5FF620DD22FA5D0200003A72 /* PBXContainerItemProxy */;
+		};
+		5FF620E922FA5D0200003A72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FF620C322FA5D0000003A72 /* QQ音乐弹幕 */;
+			targetProxy = 5FF620E822FA5D0200003A72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FF620CD22FA5D0000003A72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FF620CE22FA5D0000003A72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FF620D222FA5D0200003A72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FF620D322FA5D0200003A72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FF620EE22FA5D0200003A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5FF620EF22FA5D0200003A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FF620F122FA5D0200003A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "QQ音乐弹幕/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DH.QQ----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FF620F222FA5D0200003A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "QQ音乐弹幕/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DH.QQ----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5FF620F422FA5D0200003A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "QQ音乐弹幕Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DH.QQ----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQ音乐弹幕.app/QQ音乐弹幕";
+			};
+			name = Debug;
+		};
+		5FF620F522FA5D0200003A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "QQ音乐弹幕Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DH.QQ----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQ音乐弹幕.app/QQ音乐弹幕";
+			};
+			name = Release;
+		};
+		5FF620F722FA5D0200003A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "QQ音乐弹幕UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DH.QQ----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QQ音乐弹幕";
+			};
+			name = Debug;
+		};
+		5FF620F822FA5D0200003A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "QQ音乐弹幕UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DH.QQ----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QQ音乐弹幕";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FF620BF22FA5D0000003A72 /* Build configuration list for PBXProject "QQ音乐弹幕" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF620EE22FA5D0200003A72 /* Debug */,
+				5FF620EF22FA5D0200003A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF620F022FA5D0200003A72 /* Build configuration list for PBXNativeTarget "QQ音乐弹幕" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF620F122FA5D0200003A72 /* Debug */,
+				5FF620F222FA5D0200003A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF620F322FA5D0200003A72 /* Build configuration list for PBXNativeTarget "QQ音乐弹幕Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF620F422FA5D0200003A72 /* Debug */,
+				5FF620F522FA5D0200003A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF620F622FA5D0200003A72 /* Build configuration list for PBXNativeTarget "QQ音乐弹幕UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF620F722FA5D0200003A72 /* Debug */,
+				5FF620F822FA5D0200003A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FF620BC22FA5D0000003A72 /* Project object */;
+}
